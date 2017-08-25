@@ -11,8 +11,6 @@
 */
 	defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-	/*NEW*/
-
 	add_action( 'admin_menu', 'my_plugin_menu' ); 
 
 	function my_plugin_menu() {
